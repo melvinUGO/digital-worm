@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-[20px] md:text-[60px] font-[700] tracking-[0.5px] pb-4;
+}
+
+.center {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.bg {
+  background: linear-gradient(168deg, #ee9621 0%, #f03232 100%);
+}
